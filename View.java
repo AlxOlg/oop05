@@ -46,7 +46,6 @@ public class View {
                         presenter.showAllGroups();
                         break;
                     case 3: // Добавить нового студента в группу
-                        System.out.print("\033[H\033[J"); // очистка консоли
                         System.out.print("Введите имя студента: ");
                         String studentName = scanner.next();
                         System.out.print("Введите номер группы: ");
